@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="68439" started-at="2019-05-18T11:07:19Z" finished-at="2019-05-18T11:08:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="68439" started-at="2019-05-18T11:07:19Z" finished-at="2019-05-18T11:08:27Z">
+      <class name="tests.Tests">
+        <test-method status="PASS" signature="reportSetup()[pri:0, instance:tests.Tests@72d818d1]" name="reportSetup" is-config="true" duration-ms="835" started-at="2019-05-18T11:07:18Z" finished-at="2019-05-18T11:07:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportSetup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.Tests@72d818d1]" name="setup" is-config="true" duration-ms="19714" started-at="2019-05-18T11:07:19Z" finished-at="2019-05-18T11:07:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="sampleTest()[pri:0, instance:tests.Tests@72d818d1]" name="sampleTest" duration-ms="11" started-at="2019-05-18T11:07:39Z" finished-at="2019-05-18T11:07:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:tests.Tests@72d818d1]" name="loginTest" duration-ms="22599" started-at="2019-05-18T11:07:39Z" finished-at="2019-05-18T11:08:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="testOne()[pri:0, instance:tests.Tests@72d818d1]" name="testOne" duration-ms="13117" started-at="2019-05-18T11:08:01Z" finished-at="2019-05-18T11:08:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method status="PASS" signature="testTwo()[pri:0, instance:tests.Tests@72d818d1]" name="testTwo" duration-ms="12734" started-at="2019-05-18T11:08:15Z" finished-at="2019-05-18T11:08:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.Tests@72d818d1]" name="teardown" is-config="true" duration-ms="5049" started-at="2019-05-18T11:08:28Z" finished-at="2019-05-18T11:08:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="reportTeardown()[pri:0, instance:tests.Tests@72d818d1]" name="reportTeardown" is-config="true" duration-ms="3921" started-at="2019-05-18T11:08:33Z" depends-on-methods="tests.BaseClass.teardown" finished-at="2019-05-18T11:08:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTeardown -->
+      </class> <!-- tests.Tests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
